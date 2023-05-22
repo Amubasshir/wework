@@ -71,16 +71,16 @@ const HeroBanner = () => {
         <div className="text-white flex items-center gap-4">
           <span className="text-sm font-semibold">Popular:</span>
           <ul className="flex gap-4">
-            <li className="text-sm font-medium py-1 px-3 border rounded-full hover:bg-white hover:text-black hover:font-semibold transition-all duration-300 cursor-pointer">
+            <li className="text-sm font-medium py-1 px-3 border rounded-full hover:bg-white hover:text-black hover:font-medium transition-all duration-200 cursor-pointer">
               Website Design
             </li>
-            <li className="text-sm font-medium py-1 px-3 border rounded-full hover:bg-white hover:text-black hover:font-semibold transition-all duration-300 cursor-pointer">
+            <li className="text-sm font-medium py-1 px-3 border rounded-full hover:bg-white hover:text-black hover:font-medium transition-all duration-200 cursor-pointer">
               Wordpress
             </li>
-            <li className="text-sm font-medium py-1 px-3 border rounded-full hover:bg-white hover:text-black hover:font-semibold transition-all duration-300 cursor-pointer">
+            <li className="text-sm font-medium py-1 px-3 border rounded-full hover:bg-white hover:text-black hover:font-medium transition-all duration-200 cursor-pointer">
               Logo Design
             </li>
-            <li className="text-sm font-medium py-1 px-3 border rounded-full hover:bg-white hover:text-black hover:font-semibold transition-all duration-300 cursor-pointer">
+            <li className="text-sm font-medium py-1 px-3 border rounded-full hover:bg-white hover:text-black hover:font-medium transition-all duration-200 cursor-pointer">
               AI Service
             </li>
           </ul>
