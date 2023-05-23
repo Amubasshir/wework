@@ -1,5 +1,7 @@
 import { Inter } from 'next/font/google';
 import Footer from './components/Footer';
+import { StateProvider } from './context/StateContext';
+import reducer, { initialState } from './context/StateReducers';
 import './globals.css';
 import Head from './head';
 
@@ -15,11 +17,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Head />
-        <div className="mx-auto w-full mb-auto">
-          {children}
+        <StateProvider initial={initialState} reducer={reducer}>
+          <div className="mx-auto w-full mb-auto">
+            {children}
 
-          <Footer />
-        </div>
+            <Footer />
+          </div>
+        </StateProvider>
       </body>
     </html>
   );
