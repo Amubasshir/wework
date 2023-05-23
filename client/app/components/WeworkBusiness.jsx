@@ -3,12 +3,12 @@ import { BsCheckCircle } from 'react-icons/bs';
 
 function WeworkBusiness() {
   return (
-    <div className="bg-[#0d084d] px-20 py-16 flex gap-10">
+    <div className="bg-[#0d084d] px-20 py-16  lg:flex  gap-10">
       <div className="text-white flex flex-col gap-6 justify-center items-start">
         <div className="flex gap-2">
           <span className="text-white text-3xl font-bold flex items-center">
             <span className="font-serif ">Wework &nbsp; </span> business. &nbsp;
-            <span className="bg-blue-600 text-xs px-2 py-1 rounded-full tracking-tight ">
+            <span className="bg-blue-600 text-xs px-2 py-1 rounded-full tracking-tight hidden lg:block ">
               NEW
             </span>
           </span>
@@ -43,7 +43,7 @@ function WeworkBusiness() {
           Explore Wework Business
         </button>
       </div>
-      <div className="relative h-[512px] w-2/3">
+      <div className="relative h-[512px] w-2/3 mt-4">
         <Image src="/business.webp" alt="bsiness" fill />
       </div>
     </div>
