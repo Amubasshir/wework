@@ -1,9 +1,9 @@
 'use client';
 import Image from 'next/image';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 
 function PopularServices() {
-  const router = useRouter;
+  const router = useRouter();
   const popularServicesData = [
     {
       name: 'Ai Artists',
@@ -25,11 +25,7 @@ function PopularServices() {
       label: 'Share your message',
       image: '/service-4.webp',
     },
-    // {
-    //   name: 'Video Explainer',
-    //   label: 'Engage your audience',
-    //   image: '/service-5.webp',
-    // },
+
     {
       name: 'Social Media',
       label: 'Reach more coustomer',
@@ -45,17 +41,14 @@ function PopularServices() {
       label: 'Color your dreams',
       image: '/service-8.webp',
     },
-    // {
-    //   name: 'Translation',
-    //   label: 'Go global',
-    //   image: '/service-9.webp',
-    // },
+
     {
       name: 'Data Entry',
       label: 'Learn your business',
       image: '/service-10.webp',
     },
   ];
+
   return (
     <div className="mx-20 my-16">
       <h2 className="text-4xl mb-5 text-[#404145] font-bold">
