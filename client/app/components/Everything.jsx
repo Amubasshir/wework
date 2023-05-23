@@ -24,7 +24,7 @@ function Everything() {
     },
   ];
   return (
-    <div className="bg-[#f1fdf7] flex py-20 justify-between px-24">
+    <div className="bg-[#f1fdf7] md:flex py-20 justify-between px-24">
       <div>
         <h2 className="text-4xl mb-5 pr-10 text-[#404145] font-bold">
           The best part? Everything.
@@ -45,7 +45,7 @@ function Everything() {
           })}
         </ul>
       </div>
-      <div className="relative h-96 w-2/4">
+      <div className="relative h-96 w-full mt-10 lg:w-2/4">
         <Image src="/everything.webp" fill alt="everything" />
       </div>
     </div>
