@@ -1,10 +1,12 @@
 'use client';
-import Companies from './components/Companies';
-import Everything from './components/Everything';
-import HeroBanner from './components/HeroBanner';
-import JoinWework from './components/JoinWework';
-import PopularServices from './components/PopularServices';
-import WeworkBusiness from './components/WeworkBusiness';
+
+import AuthWrapper from './components/AuthWrapper';
+import Companies from './components/landing/Companies';
+import Everything from './components/landing/Everything';
+import HeroBanner from './components/landing/HeroBanner';
+import JoinWework from './components/landing/JoinWework';
+import PopularServices from './components/landing/PopularServices';
+import WeworkBusiness from './components/landing/WeworkBusiness';
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
       <Everything />
       <WeworkBusiness />
       <JoinWework />
+      <AuthWrapper />
     </main>
   );
 }
