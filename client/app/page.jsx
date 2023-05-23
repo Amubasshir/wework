@@ -1,3 +1,4 @@
+'use client';
 import Companies from './components/Companies';
 import Everything from './components/Everything';
 import HeroBanner from './components/HeroBanner';
